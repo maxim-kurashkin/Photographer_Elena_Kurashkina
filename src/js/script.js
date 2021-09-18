@@ -1,6 +1,9 @@
 window.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger'),
+      span = document.querySelectorAll('.spanm'),
       menu = document.querySelector('.menu'),
+      block = document.querySelector('.menu__block'),
+      overlay = document.querySelector('.menu__overlay'),
       closeElem = document.querySelector('.menu__close'),
       closeLink = document.querySelectorAll('.menu__link');
 
@@ -24,14 +27,40 @@ window.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    overlay.addEventListener('click', (e)=> { 
+        if(e.target != block) {
+            closeMenu();
+        }
+    })
+
     function closeMenu() {
         menu.classList.remove('active');
     }
     
-    // window.addEventListener('scroll', function() {
-    //     document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
-    // });
-    
+
+    function showMenuByScroll() {
+        if (window.pageYOffset >=  880) {
+            span.forEach(item => {
+                item.classList.add('black');
+            })
+        }
+        if (window.pageYOffset <=  880) {
+            span.forEach(item => {
+                item.classList.remove('black');
+            })
+        }
+    }
+
+
+
+    window.addEventListener('scroll', showMenuByScroll);
+
+    closeLink.forEach(item => {
+        item.addEventListener('click', () => {
+            closeMenu();
+        });
+    });
+
     new WOW().init();
 
     //
