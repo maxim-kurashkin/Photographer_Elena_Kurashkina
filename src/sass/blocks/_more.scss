@@ -1,0 +1,31 @@
+.more{
+    width: 1185px;
+    margin: 0 auto;
+    height: 190px;
+    margin-bottom: 175px;
+    &__header{
+        font-family: SovMod;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+    &__text{
+        width: 320px;
+        height: 60px;
+        background: #000000;
+        font-family: futura-pt-book;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 24px;
+        color: #FFFFFF;
+        padding: 14px 62px 14px 62px;
+        &:hover, &:focus, &:active{
+            text-decoration: none;
+            color: $white;
+        }
+    }
+}

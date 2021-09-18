@@ -1,0 +1,75 @@
+@import 'libs/bootstrap-reboot.min';
+@font-face {
+    font-family: 'SovMod';
+    src: url('../fonts/SovMod.eot');
+    src: url('../fonts/SovMod.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SovMod.ttf') format('truetype'),
+         url('../fonts/SovMod.woff') format('woff'),
+         url('../fonts/SovMod.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FuturaPT-Light';
+    src: url('../fonts/FuturaPT-Light.svg#FuturaPT-Light') format('svg'),
+         url('../fonts/FuturaPT-Light.ttf') format('truetype'),
+         url('../fonts/FuturaPT-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+  @font-face {
+    font-family: 'futura-pt-light';
+    src: url('../fonts/futura-pt-light.eot');
+    src: url('../fonts/futura-pt-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura-pt-light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FuturaPT-Book';
+    src: url('../fonts/FuturaPT-Book.svg#FuturaPT-Book') format('svg'),
+         url('../fonts/FuturaPT-Book.ttf') format('truetype'),
+         url('../fonts/FuturaPT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+  
+  @font-face {
+    font-family: 'futura-pt-book';
+    src: url('../fonts/futura-pt-book.eot');
+    src: url('../fonts/futura-pt-book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura-pt-book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/promo';
+@import 'blocks/menu';
+@import 'blocks/about';
+@import 'blocks/divider';
+@import 'blocks/work';
+@import 'blocks/price';
+@import 'blocks/more';
+@import 'blocks/contacts';
+
+
+@import 'blocks/media';

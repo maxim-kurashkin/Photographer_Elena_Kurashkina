@@ -1,0 +1,87 @@
+.work{
+    margin-top: 125px;
+    margin-bottom: 175px;
+    &__header{
+        margin-left: auto;
+        margin-right: 0;
+        height: 350px;
+        width: 1329px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__title{
+        font-family: SovMod;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__img{
+        width: 580px;
+        height: 350px;
+    }
+    &__main{
+        margin: 100px auto 150px auto;
+        min-height: 176px;
+        width: 1215px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__item{
+        &:nth-child(1){
+            width: 268px;
+            height: 176px;
+        }
+        &:nth-child(2){
+            width: 228px;
+            height: 176px;
+        }
+        &:nth-child(3){
+            width: 230px;
+            height: 176px;
+        }
+        &:nth-child(4){
+            width: 285px;
+            height: 176px;
+        }
+        &__title{
+            font-family: futura-pt-book;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+        &__text{
+            font-family: futura-pt-light;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            color: #6D6D6D;
+        }
+    }
+    &__footer{
+        height: 350px;
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__subtitle{
+        font-family: SovMod;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+}

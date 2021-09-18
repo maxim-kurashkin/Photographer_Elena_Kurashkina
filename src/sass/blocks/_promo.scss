@@ -1,0 +1,84 @@
+.promo {
+    height: 100vh;
+    background: url('../img/main.jpg') no-repeat 50%/cover;
+    &__nav{
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    &__logo{
+        padding-left: 100px;
+        padding-top: 37px;
+        height: 30px;
+        width: 125px;
+    }
+    &__links{
+        width: 267px;
+        height: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__link{
+        font-family: Futura PT;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: $white;
+        &:hover {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+
+    &__title {
+        margin-top: 273px;
+        color: $white;
+        font-family: SovMod;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 48px;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        color: #ffffff;
+        font-family: futura-pt-book;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    &__btns {
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        height: 30px;
+    }
+    &__btn{
+        width: 160px;
+        height: 30px;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        font-family: futura-pt-book;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 5px;
+        &:hover, &:focus, &:active{
+            text-decoration: none;
+            color: $white;
+        }
+    }
+}
+

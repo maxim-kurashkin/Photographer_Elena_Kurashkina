@@ -1,0 +1,19 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    // height: 48px;
+}
+.divider{
+    width: 1040px;
+    font-family: SovMod;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: rgba(228, 231, 231, 0.7);
+    &__right{
+        margin-right: 0;
+        margin-left: auto;
+    }
+}

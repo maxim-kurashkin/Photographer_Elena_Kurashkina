@@ -1,0 +1,60 @@
+.contacts{
+    margin-top: 175px;
+    &__wrapper{
+        width: 560px;
+        height: 120px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 48px;
+    }
+    &__header{
+        font-family: futura-pt-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        color: #6D6D6D;
+    }
+    &__tel{
+        font-family: SovMod;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #000000;
+        &:hover, &:focus, &:active{
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+    &__span{
+        margin: 0 auto;
+        width: 1140px;
+        height: 1px;
+        border: 1px solid #E2E7E7;
+    }
+    &__links{
+        margin: 20px auto 40px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 270px;
+        height: 20px;
+    }
+    &__link{
+        font-family: futura-pt-book;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        &:hover, &:focus, &:active{
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}

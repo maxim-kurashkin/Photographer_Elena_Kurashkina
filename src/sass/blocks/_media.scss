@@ -1,0 +1,489 @@
+@media (max-width: 1439px) {
+    .promo{
+        background: url('../img/main.jpg') no-repeat 50%/cover;
+    }
+    .work{
+        &__header{
+            width: 1300px;
+        }
+    }
+}
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1060px;
+    }
+    //2
+    .mbg{
+        display: none;
+    }
+    .second__photo__wrapper {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .ek{
+        left: 275px;
+    }
+    //3
+    .work{
+        &__header{
+            width: 1200px;
+        }
+        &__main{
+            width: 1170px;
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    //2
+    .ca {
+        max-width: 900px;
+    }
+    //3
+    .work{
+        &__header{
+            width: 1024px;
+        }
+        &__img {
+            width: 550px;
+            height: 330px;
+        }
+        &__main{
+            min-height: 500px;
+            align-items: center;
+            width: 700px;
+            flex-wrap: wrap;
+        }
+        &__item{
+            &:nth-child(4) {
+                width: 225px;
+            }
+        }
+        &__footer{
+            width: 1024px;
+        }
+        &__subtitle{
+            font-size: 12px;
+        }
+    }
+    //4
+    .price{
+        width: 992px;
+        &__header{
+            margin-left: auto;
+            width: 97%;
+        }
+        &__wrapper{
+            margin-left: auto;
+            width: 97%;
+            flex-wrap: wrap;
+        }
+        &__item{
+            margin-bottom: 30px;
+            height: 300px;
+        }
+    }
+    .none{
+        display: none;
+    }
+    .vert{
+        &__none{
+            display: none;
+        }
+    }
+    //5
+    .more{
+        width: 748px;
+    }
+    //6
+    .contacts{
+        &__span{
+            width: 860px;
+        }
+    }
+    //divider
+    .divider{
+        width: 992px;
+        font-size: 45px;
+        &__right{
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo{
+        height: 900px;
+        &__title{
+            margin-top: 273px;
+        }
+    }
+    .hamburger{
+        top: 40px;
+    }
+    .menu{
+        &__list{
+            padding-top: 30px;
+        }
+        &__link{
+            margin-bottom: 25px;
+        }
+    }
+    //2
+    .about {
+        &__descr{
+            margin-left: 0;
+        }
+
+    }
+    .ca{
+        max-width: 630px;
+    }
+    .second__photo__wrapper {
+        margin-top: 40px;
+        width: 210px;
+    }
+    //3
+    .work{
+        &__header{
+            width: 768px;
+        }
+        &__title{
+            font-size: 30px;
+        }
+        &__img {
+            width: 450px;
+            height: 280px;
+        }
+        &__footer {
+            width: 768px;
+        }
+        &__subtitle {
+            font-size: 8px;
+        }
+    }
+    //4
+    .price{
+        width: 748px;
+        margin-top: 123px;
+        margin-bottom: 123px;
+        &__header{
+            margin-left: 25px;
+        }
+        &__item{
+            width: 290px;
+        }
+    }
+    .vert{
+        margin-left: 35px;
+    }
+    //6
+    .contacts{
+        &__span{
+            width: 710px;
+        }
+    }
+    //divider
+    .divider{
+        width: 768px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        &__logo{
+            padding-left: 25px;
+        }
+        &__links{
+            display: none;
+        }
+        &__title {
+            line-height: 70px;
+            width: 300px;
+        }
+    }
+    .hamburger{
+        right: 25px;
+    }
+    .mpromo__link{
+        display: block;
+    }  
+    //2
+    .second__photo__wrapper {
+        display: none;
+    }
+    .mbg {
+        display: block;
+        height: 570px;
+        width: 380px;
+    }
+    .about{
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__photo{
+            position: relative;
+        }
+        &__descr{
+            margin-top: 90px;
+            margin-bottom: 30px;
+        }
+        &__title{
+            text-align: center;
+        }
+    }
+    .mek{
+        display: block;
+        position: absolute;
+        top: 452px;
+        left: -125px;
+    }
+    //3
+    .work{
+        margin-top: 50px;
+        &__header{
+            width: 576px;
+        }
+        &__title {
+            font-size: 15px;
+        }
+        &__img {
+            width: 360px;
+            height: 218px;
+        }
+        &__main {
+            min-height: 800px;
+            width: 320px;
+            margin-bottom: 40px;
+        }
+        &__item{
+            width: 300px;
+            text-align: center;
+            &__title{
+                width: 300px;
+                text-align: center;
+            }
+            &__text{
+                width: 300px;
+            }
+        }
+        &__footer{
+            margin: 0 auto;
+            width: 360px;
+            flex-direction: column;
+            margin-bottom: 100px;
+            align-items: center;
+            height: 300px;
+        }
+        &__subtitle{
+            text-align: center;
+        }
+    }
+    //4
+    .price{
+        width: 320px;
+        &__item {
+            border-bottom: 1px solid black;
+            height: 330px;
+            &:nth-child(5){
+                border-bottom: none;
+                height: 250px;
+            }
+        }
+    }
+    .vert{
+        display: none;
+    }
+    //5
+    .more{
+        margin-top: 50px;
+        margin-bottom: 80px;
+        width: 550px;
+        &__header{
+            font-size: 40px;
+        }
+    }
+    //6
+    .contacts{
+        &__span{
+            width: 480px;
+        }
+    }
+    //divider
+    .divider{
+        width: 576px;
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .hamburger {
+        right: 10px;
+    }
+    .menu {
+        &__block {
+            width: 300px;
+            padding-left: 20px;
+        }
+        &__list{
+            padding-left: 0;
+            padding-top: 0;
+        }
+        &__lk{
+            font-size: 30px;
+        }
+        &__social{
+            margin-top: 60px;
+            margin-left: 0px;
+        }
+        &__close{
+            top: 33px;
+        }
+    }
+    .promo {
+        &__logo{
+            padding-left: 10px;
+        }
+        &__title{
+            line-height: 10px;
+            font-size: 23px;
+        }
+        &__subtitle{
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        &__btns {
+            margin-top: 20px;
+        }
+        &__btn{
+            color: $white;
+        }
+    }
+    //2
+    .about{
+        margin-bottom: 50px;
+        padding-top: 60px;
+        &__title{
+            text-align: center;
+            font-size: 37px;
+        }
+        &__descr{
+            width: 300px;
+        }
+        // &__text{
+        //     text-align: center;
+        // }
+    }
+    .mbg{
+        width: 210px;
+        height: 310px;
+    }
+    .mek{
+        top: 260px;
+        left: -50px;
+        width: 100px;
+        height: 100px;
+    }
+    .second__photo__wrapper {
+        margin-left: 120px;
+    }
+    .second__photo__wrapper {
+        width: 300px;
+        height: 220px;
+        margin-left: 0px;
+    }
+    .hor {
+        margin-left: 60px;
+        width: 204px;
+        height: 132px;
+    }
+    .ek{
+        width: 150px;
+        height: 150px;
+        left: -10px;
+        top: 50px;
+    }
+    //3
+    .work{
+        margin-bottom: 50px;
+        &__header{
+            margin-right: auto;
+            width: 320px;
+            height: 220px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title{
+            font-size: 20px;
+            text-align: center;
+        }
+        &__img{
+            width: 280px;
+            height: 175px;
+        }
+        &__footer{
+            margin-bottom: 0;
+            width: 320px;
+        }
+    }
+    //4
+    .price{
+        margin-top: 50px;
+        margin-bottom: 0;
+        width: 320px;
+        &__header{
+            margin-left: 10px;
+        }
+    }
+    //5
+    .more{
+        width: 320px;
+        &__header{
+            text-align: center;
+            font-size: 30px;
+        }
+        &__text{
+            padding-left: 52px;
+            padding-right: 52px;
+            width: 300px;
+            margin-left: 10px;
+        }
+    }
+    //6
+    .contacts{
+        margin-top: 60px;
+        &__wrapper{
+            width: 320px;
+            height: 70px;
+        }
+        &__header{
+            font-size: 13px;
+        }
+        &__tel{
+            font-size: 15px;
+        }
+        &__span{
+            width: 280px;
+        }
+    }
+    //divider
+    .divider{
+        width: 320px;
+        font-size: 14px;
+    }
+}

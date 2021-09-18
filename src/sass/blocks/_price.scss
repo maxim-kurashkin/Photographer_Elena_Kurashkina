@@ -1,0 +1,91 @@
+.price{
+    width: 1185px;
+    margin: 223px auto;
+    &__header{
+        font-family: SovMod;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__wrapper{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    &__item{
+        width: 303px;
+        height: 260px;
+    }
+    &__name{
+        font-family: futura-pt-book;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    &__props{
+        width: 300px;
+        font-family: futura-pt-light;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #6D6D6D;
+        margin-bottom: 15px;
+    }
+    &__price{
+        margin-top: 5px;
+        font-family: futura-pt-book;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+    &__wr{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__button{
+        width: 161px;
+        height: 30px;
+        background: #000000;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        font-family: futura-pt-book;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding: 5px 15px;
+        &:hover, &:focus, &:active{
+            text-decoration: none;
+            color: $white;
+        }
+    }
+    &__arrow{
+        margin-left: 10px;
+    }
+}
+
+.vert{
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 301px;
+    width: 1px;
+    background: #000000;
+}
+
+.none{
+    color: $white;
+}
